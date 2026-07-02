@@ -25,7 +25,7 @@ ALERT_FROM        = os.environ.get("ALERT_FROM", "Buzzzr <alerts@bzzzr.co>")
 SITE_URL          = os.environ.get("SITE_URL", "https://bzzzr.co")
 ALERT_TIER        = os.environ.get("ALERT_TIER", "🔥 Hot")
 ALERT_COOLDOWN_H  = float(os.environ.get("ALERT_COOLDOWN_HRS", "18"))
-TRADESTIE_URL     = os.environ.get("TRADESTIE_URL", "https://tradestie.com/api/v1/apps/reddit")
+TRADESTIE_URL     = os.environ.get("TRADESTIE_URL", "https://api.tradestie.com/v1/apps/reddit")
 
 MIN_MENTIONS      = 8
 TOP_CANDIDATES    = 25          # board size
